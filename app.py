@@ -21,7 +21,7 @@ API_KEY = os.getenv("GROQ_API_KEY")
 MODEL = "llama-3.1-8b-instant"
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
-BUCKET = os.getenv("BUCKET_NAME", "lambda-genai-bucket-3")
+BUCKET = os.getenv("BUCKET_NAME", "lambdagenaibucket2")
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
 def summarize_text(text):
